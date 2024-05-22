@@ -18,7 +18,7 @@ function Testimonial() {
 
                 <div className='grid grid-cols-3 gap-2  text-[16px] font-[400] w-[80%] mt-6'>
                     {Navcontent.map((item, i: number) => (
-                        <div className='ml-10 mt-4'>
+                        <div className='ml-10 mt-4 w-[277.35px]'>
                             <p className={`${rale.className} test text-[#fff] px-10 `}>{item.talk}</p>
                             <div className='flex flex-col items-end mt-4'>
                                 <p className='text-[18px] font-[400]'>{item.name}</p>

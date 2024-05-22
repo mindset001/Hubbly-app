@@ -44,19 +44,19 @@ export default Hero
 
 const Navcontent = [
     {
-        link: '/about',
+        link: '#about',
         name: 'About Us'
     },
     {
-        link: '#services',
+        link: '#choose',
         name: 'Why Choose Hubbly'
     },
     {
-        link: '#competencies',
+        link: '#how-we-work',
         name: 'How Hubbly Works'
     },
     {
-        link: '#contact',
+        link: '#offerings',
         name: 'Our Offerings'
     },
 
