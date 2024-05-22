@@ -17,7 +17,7 @@
 }
 
 body {
-  
+  background-color: transparent;
 }
 
 @layer utilities {
@@ -30,8 +30,6 @@ body {
 .test {
   background-image: url('../../public/assets/test.png') ;
   background-size: contain;
-
-  /* background-position: center; */
   background-repeat: no-repeat;
   padding: 50px 25px;
 }
@@ -40,6 +38,5 @@ body {
   background-image: url('../../public/assets/hero.png') ;
   background-size: cover;
   background-position: center;
-  /* background-repeat: no-repeat;
-  padding: 50px 25px; */
+ 
 }

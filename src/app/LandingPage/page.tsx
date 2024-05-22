@@ -5,6 +5,8 @@ import Profession from './Profession'
 import Hero from './Hero'
 import About from './About'
 import Choose from './Choose'
+import Screen from './Screen'
+import Offerings from './Offerings'
 
 function Landing() {
   return (
@@ -13,6 +15,8 @@ function Landing() {
         <About/>
         <Choose/>
         <Profession/>
+        <Offerings/>
+        <Screen/>
         <Collaboration/>
         <Testimonial/>
     </div>

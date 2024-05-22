@@ -13,7 +13,7 @@ function Collaboration() {
                 <div className='w-[80%] flex items-center justify-between'>
                     <div>
                         <h2 className='text-[35px] font-[700]'>Where you are</h2>
-                        <h1 className={`${rale.className} text-[#048392] font-[700] text-[60px]`}>convenient <br /> communication</h1>
+                        <h1 className={`${rale.className} text-[#048392] font-[700] text-[60px] leading-[68.68px]`}>convenient <br /> communication</h1>
                         <p className={`${rale.className}  font-[500] text-[16px]`}>Chat or Talk with Us on Your Favourite Messenger Platforms.</p>
                     </div>
                     <div>
