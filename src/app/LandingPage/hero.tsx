@@ -5,7 +5,7 @@ import Logo from '../../../public/assets/logo.png'
 import { Raleway } from 'next/font/google';
 import Link from 'next/link';
 
-export const rale = Raleway({ subsets: ["latin"] });
+const rale = Raleway({ subsets: ["latin"] });
 function Hero() {
     return (
         <main className='hero w-full flex flex-col items-center text-[#fff]'>
