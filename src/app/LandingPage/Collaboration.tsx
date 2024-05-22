@@ -4,7 +4,7 @@ import { Raleway } from 'next/font/google';
 import Collab from '../../../public/assets/collab.png'
 import Where from '../../../public/assets/where.png'
 
-export const rale = Raleway({ subsets: ["latin"] });
+const rale = Raleway({ subsets: ["latin"] });
 
 function Collaboration() {
     return (
