@@ -6,7 +6,7 @@ import { Raleway } from 'next/font/google';
 import Link from 'next/link';
 
 const rale = Raleway({ subsets: ["latin"] });
-function Hero() {
+function NewHero() {
     return (
         <main className='hero w-full flex flex-col items-center text-[#fff]'>
 
@@ -40,7 +40,7 @@ function Hero() {
     )
 }
 
-export default Hero
+export default NewHero
 
 const Navcontent = [
     {

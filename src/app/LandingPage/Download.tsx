@@ -2,7 +2,8 @@ import { Raleway } from 'next/font/google';
 import React from 'react'
 import Two from '../../../public/assets/two.png'
 import Image from 'next/image';
-const rale = Raleway({ subsets: ["latin"] });
+
+export const rale = Raleway({ subsets: ["latin"] });
 function Download() {
   return (
     <main>
