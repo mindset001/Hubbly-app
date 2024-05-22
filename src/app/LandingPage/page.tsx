@@ -7,7 +7,7 @@ import Choose from './Choose'
 import Screen from './Screen'
 import Offerings from './Offerings'
 import Download from './Download'
-import NewHero from './newHero'
+import NewHero from './NewHero'
 
 function Landing() {
   return (
