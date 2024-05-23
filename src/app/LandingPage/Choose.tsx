@@ -1,6 +1,9 @@
 import { Raleway } from 'next/font/google';
 import React from 'react'
 import Mic from '../../../public/assets/mic.png'
+import Lock from '../../../public/assets/lock.png'
+import Veri from '../../../public/assets/Rectangle 21845.png'
+import Clock from '../../../public/assets/Rectangle 21847.png'
 import Image from 'next/image';
 
 const rale = Raleway({ subsets: ["latin"] });
@@ -33,11 +36,11 @@ function Choose() {
 export default Choose
 
 const Navcontent = [
-    {   img: Mic,
+    {   img: Veri,
         name: 'Verified Hubblers'
     },
     {   
-        img: Mic,
+        img: Clock,
         name: 'Transparent & Instant Booking'
     },
     {   
@@ -45,7 +48,7 @@ const Navcontent = [
         name: '24/7 support'
     },
     {   
-        img: Mic,
+        img: Lock,
         name: 'Secure Payment Options'
     },
 
