@@ -9,8 +9,8 @@ function Screen() {
     <main className='bg-[#09717E] w-full flex items-center flex-col text-center py-20'>
             <div className='w-[80%]'>
             <div>
-                <h2 className='text-[35px] font-[700] text-[#fff]'>Beautiful Screen</h2>
-                <h1 className={`${rale.className} capitalize text-[60px] font-[700] text-[#fff] mb-6`}>Screenshots From The App</h1>
+                <h2 className='text-[20px] md:text-[35px] font-[700] text-[#fff]'>Beautiful Screen</h2>
+                <h1 className={`${rale.className} capitalize text-[35px] md:text-[60px] font-[700] text-[#fff] mb-6`}>Screenshots From The App</h1>
                 <p className={`${rale.className} text-[18px] font-[500] text-[#fff] px-4`}>Our team of experts is committed to delivering excellence 
                     in every service we offer. Whether you need help with
                      house cleaning, dog walking, or in-house cooking, 

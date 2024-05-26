@@ -12,16 +12,16 @@ import NewHero from './NewHero'
 function Landing() {
   return (
     <div className='w-full'>
-        <NewHero/>
+        {/* <NewHero/> */}
         <div id='about'>
-        <About/>
+        {/* <About/> */}
         </div>
         <div id='choose'>
-        <Choose/>
+        {/* <Choose/> */}
         </div>
-        <Download/>
+        {/* <Download/> */}
         <div id='how-we-work'>
-        <Profession/>
+        {/* <Profession/> */}
         </div>
         <div id='offerings'>
         <Offerings/>
