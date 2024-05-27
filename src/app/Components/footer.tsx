@@ -23,7 +23,7 @@ function Footer() {
   return (
     <footer className='w-full'>
         <div className='w-full bg-[#048392] px-[2] flex justify-center items-center text-[#fff]'>
-            <div className='flex justify-between w-[70%] py-10'>
+            <div className='flex flex-col lg:flex-row justify-between w-[70%] py-10'>
                 <div>
                 <Image src={Logo} alt='' className='w-[149px] h-[37px]'/>
             </div>

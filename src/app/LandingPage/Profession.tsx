@@ -14,15 +14,15 @@ function Profession() {
             <div className='w-full flex flex-col items-center'>
                 
                 <div className=' w-full flex flex-col items-center justify-between py-10 my-10'>
-                    <div className='w-[85%] flex items-center justify-between'>
+                    <div className='w-full lg:w-[85%] flex flex-col lg:flex-row items-center justify-between'>
                         <div className='w-[50%]'>
-                            <Image src={Collab} alt='' className='w-[535px] h-[727px]' />
+                            <Image src={Collab} alt='' className='lg:w-[535px] lg:h-[727px]' />
                         </div>
-                        <div className='w-[50%]'>
-                            <h2 className='text-[35px] font-[700]'>How Hubby Works</h2>
-                            <h1 className={`${rale.className} text-[#048392] font-[700] text-[60px] capitalize leading-[68.68px]`}>This app is <br /> working <span className='font-[400]'>by <br />
+                        <div className='flex flex-col items-center w-full lg:w-[50%]'>
+                            <h2 className='text-[35px] font-[700] text-center lg:text-left'>How Hubby Works</h2>
+                            <h1 className={`${rale.className} text-[#048392] font-[700] text-center lg:text-left text-[35px] md:text-[50px] lg:text-[60px] capitalize lg:leading-[68.68px]`}>This app is <br className='hidden lg:block'/> working <span className='font-[400]'>by <br className='hidden lg:block'/>
                                 some steps!</span></h1>
-                            <div className=' text-[16px] font-[400] w-[80%] mt-6'>
+                            <div className=' text-[16px] font-[400] w-[90%] lg:w-[80%] mt-6'>
                                 {Navcontent.map((item, i: number) => (
                                     <div className=' flex items-center'>
                                         <div>
@@ -32,7 +32,7 @@ function Profession() {
                                             <div className='w-45%'>
                                                 <Image src={Circle} alt='' className='w-[57px] h-[57px]'/>
                                             </div>
-                                            <div className='w-[75%]'>
+                                            <div className='w-full lg:w-[75%]'>
                                                 <p className='text-[18px] font-[700]'>{item.name}</p>
                                                 <p className={`${rale.className}text-[#fff] text-[14px]`}>{item.talk}</p>
                                             </div>
@@ -47,14 +47,14 @@ function Profession() {
                     </div>
 
                 </div>
-                <div className='w-[80%] flex items-center justify-between'>
-                    <div className='w-[50%]'>
-                        <h2 className='text-[35px] font-[700]'>Proffessionalism</h2>
-                        <h1 className={`${rale.className} text-[#048392] font-[700] text-[60px] capitalize leading-[68.68px]`}>trusted <br /> professionals at <br /> your doorstep</h1>
-                        <p className={`${rale.className}  font-[500] text-[16px]`}>We carefully vet all our Hubbly professionals to ensure they meet our high standards of quality and reliability. Rest assured that you'll receive top-notch service every time.</p>
+                <div className='w-full md:w-[80%] flex flex-col lg:flex-row items-center justify-between'>
+                    <div className='w-[90%]  lg:w-[50%] items-center flex flex-col'>
+                        <h2 className='text-[20px] md:text-[35px] font-[700] '>Proffessionalism</h2>
+                        <h1 className={`${rale.className} text-[#048392] font-[700] text-center lg:text-left text-[35px] md:text-[50px] lg:text-[60px] capitalize lg:leading-[68.68px]`}>trusted <br className='hidden lg:block'/> professionals at <br  className='hidden lg:block'/> your doorstep</h1>
+                        <p className={`${rale.className}  font-[500] text-[16px] text-center lg:text-left`}>We carefully vet all our Hubbly professionals to ensure they meet our high standards of quality and reliability. Rest assured that you'll receive top-notch service every time.</p>
                     </div>
-                    <div className='w-[45%]'>
-                        <Image src={Where} alt='' className='w-[466px] h-[448px]' />
+                    <div className='w-[45%] flex items-center'>
+                        <Image src={Where} alt='' className='mt-10 lg:mt-0 lg:w-[466px] lg:h-[448px]' />
                     </div>
                 </div>
             </div>
