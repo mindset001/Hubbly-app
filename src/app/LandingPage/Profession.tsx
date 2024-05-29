@@ -48,8 +48,8 @@ function Profession() {
 
                 </div>
                 <div className='w-full md:w-[80%] flex flex-col lg:flex-row items-center justify-between'>
-                    <div className='w-[90%]  lg:w-[50%] items-center flex flex-col'>
-                        <h2 className='text-[20px] md:text-[35px] font-[700] '>Proffessionalism</h2>
+                    <div className='w-[90%]  lg:w-[50%]  flex flex-col'>
+                        <h2 className='text-[35px] font-[700] text-center lg:text-left'>Proffessionalism</h2>
                         <h1 className={`${rale.className} text-[#048392] font-[700] text-center lg:text-left text-[35px] md:text-[50px] lg:text-[60px] capitalize lg:leading-[68.68px]`}>trusted <br className='hidden lg:block'/> professionals at <br  className='hidden lg:block'/> your doorstep</h1>
                         <p className={`${rale.className}  font-[500] text-[16px] text-center lg:text-left`}>We carefully vet all our Hubbly professionals to ensure they meet our high standards of quality and reliability. Rest assured that you'll receive top-notch service every time.</p>
                     </div>

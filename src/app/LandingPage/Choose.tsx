@@ -11,12 +11,12 @@ function Choose() {
   return (
     <main className='w-full flex flex-col items-center my-20'>
         <div className='text-center'>
-            <h2 className='text-[20px] lg:text-[35px] font-[700] text-center lg:text-left '>Why Choose Hubbly</h2>
-            <h1 className={`${rale.className} text-center lg:text-left text-[35px] md:text-[50px] lg:text-[60px] font-[700] capitalize text-[#048392] lg:leading-[68.68px]`}>Quality Home services <span className='font-[400]'>at the <br className='hidden lg:block'/> best price</span></h1>
+            <h2 className='text-[30px] lg:text-[35px] font-[700] text-center '>Why Choose Hubbly</h2>
+            <h1 className={`${rale.className} text-center  text-[35px] md:text-[50px] lg:text-[60px] font-[700] capitalize text-[#048392] lg:leading-[68.68px]`}>Quality Home services <span className='font-[400]'>at the <br className='hidden lg:block'/> best price</span></h1>
         </div>
 
         <div className='w-full flex flex-col items-center justify-center'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full lg:w-[80%] items-center mt-6'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:w-[80%] items-center mt-6'>
                     {Navcontent.map((item, i: number) => (
                      
                             <div className='bg-[#04839226] rounded-[33px] h-[243px] w-[229px] flex flex-col justify-center text-center items-center mt-4'>
