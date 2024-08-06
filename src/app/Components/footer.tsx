@@ -10,7 +10,8 @@ import Lin from '../../../public/assets/link.png'
 import Inst from '../../../public/assets/inst.png'
 import Phone from '../../../public/assets/phone.png'
 import Msg from '../../../public/assets/msgg.png'
-
+import Apple from '../../../public/assets/apple-removebg-preview.png'
+import Play from '../../../public/assets/playstore-removebg-preview.png'
 
 const rale = Raleway({ subsets: ["latin"] });
 function Footer() {
@@ -26,6 +27,11 @@ function Footer() {
             <div className='flex flex-col lg:flex-row justify-between w-[70%] py-10'>
                 <div>
                 <Image src={Logo} alt='' className='w-[149px] h-[37px]'/>
+                <div className='mt-6'>
+                61 Bridge Street,
+Kinston, <br /> United Kingdom
+
+                </div>
             </div>
             <div className=''>
                 <div className='flex items-center'>
@@ -64,12 +70,20 @@ function Footer() {
                             ))}
                        
                         </ul>
-                        <button className='mt-4 bg-[#EFAC2B] shadow-lg rounded-[88px] h-[39px] w-[149px]'>Download</button>
+                   
+                        <div className='flex flex-col '>
+                            <button>
+                                <Image src={Apple} alt='' className='w-[120px] ' />
+                            </button>
+                            <button>
+                                <Image src={Play} alt='' className='w-[120px] '/>
+                            </button>
+                        </div>
         </div>
             </div>
         </div>
         <div className='py-10'>
-        <p className={`${rale.className}  mt-4 text-center text-[#000000] font-[400] text-[14px]`}>Copyright © <span>{`${year} by asteria. All Rights reserved.`}</span> </p>
+        <p className={`${rale.className}  mt-4 text-center text-[#000000] font-[400] text-[14px]`}>Copyright © <span>{`${year} Hubbly.me Ltd. All Rights reserved.`}</span> </p>
                       
         </div>
     </footer>

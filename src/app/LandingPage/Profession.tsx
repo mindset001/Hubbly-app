@@ -20,8 +20,8 @@ function Profession() {
                         </div>
                         <div className='flex flex-col items-center w-full lg:w-[50%]'>
                             <h2 className='text-[35px] font-[700] text-center lg:text-left'>How Hubby Works</h2>
-                            <h1 className={`${rale.className} text-[#048392] font-[700] text-center lg:text-left text-[35px] md:text-[50px] lg:text-[60px] capitalize lg:leading-[68.68px]`}>This app is <br className='hidden lg:block'/> working <span className='font-[400]'>by <br className='hidden lg:block'/>
-                                some steps!</span></h1>
+                            <h1 className={`${rale.className} text-[#048392] font-[700] text-center lg:text-left text-[35px] md:text-[50px] lg:text-[60px] capitalize lg:leading-[68.68px]`}>Hubbly works<br className='hidden lg:block'/> in 3 <span className='font-[400]'>simple <br className='hidden lg:block'/>
+                            steps!</span></h1>
                             <div className=' text-[16px] font-[400] w-[90%] lg:w-[80%] mt-6'>
                                 {Navcontent.map((item, i: number) => (
                                     <div className=' flex items-center'>

@@ -1,11 +1,23 @@
+'use client'
 import React from 'react'
 import { Raleway } from 'next/font/google'
 import Star from '../../../public/assets/star.png'
 import Image from 'next/image';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 export const rale = Raleway({ subsets: ["latin"] });
 
 function Testimonial() {
+    const items = Navcontent.map((item, i: number) => (
+        <div className='ml-10 mt-4 w-[277.35px]'>
+            <p className={`${rale.className} test text-[#fff] px-10 `}>{item.talk}</p>
+            <div className='flex flex-col items-end mt-4'>
+                <p className='text-[18px] font-[400]'>{item.name}</p>
+                <Image src={Star} alt='' className='w-[131px] h-[25px]' />
+            </div>
+        </div>
+    ))
     return (
         <main className='w-full flex flex-col items-center my-24'>
             <div className='w-full flex flex-col items-center justify-center'>
@@ -16,16 +28,21 @@ function Testimonial() {
                 </div>
 
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2  text-[16px] font-[400] w-full items-center lg:w-[80%] mt-6'>
-                    {Navcontent.map((item, i: number) => (
-                        <div className='ml-10 mt-4 w-[277.35px]'>
-                            <p className={`${rale.className} test text-[#fff] px-10 `}>{item.talk}</p>
-                            <div className='flex flex-col items-end mt-4'>
-                                <p className='text-[18px] font-[400]'>{item.name}</p>
-                                <Image src={Star} alt='' className='w-[131px] h-[25px]' />
-                            </div>
-                        </div>
-                    ))}
+                <div className=' text-[16px] font-[400] w-full items-center lg:w-[80%] mt-6'>
+                <AliceCarousel 
+            mouseTracking 
+            items={items} 
+            responsive={{
+              0: { items: 1 },
+              568: { items: 2 },
+              1024: { items: 3 },
+            }}
+            autoPlay={true}
+            autoPlayInterval={3000}
+            infinite={true}
+            disableButtonsControls={true}
+            disableDotsControls={true}
+          />
 
                 </div>
             </div>

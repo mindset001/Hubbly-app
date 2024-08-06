@@ -8,6 +8,7 @@ import Screen from './Screen'
 import Offerings from './Offerings'
 import Download from './Download'
 import NewHero from './NewHero'
+import ScrollToTop from './Scroll'
 
 function Landing() {
   return (
@@ -29,6 +30,7 @@ function Landing() {
         <Screen/>
         <Collaboration/>
         <Testimonial/>
+        <ScrollToTop /> 
     </div>
   )
 }
